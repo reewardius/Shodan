@@ -1,6 +1,6 @@
 # Shodan_CVE 2.0
 
-Create file hosts.txt with ip per line
+Create a file called hosts.txt and add IPs to it, each IP on a new line.
 
 python ShodanCVE2.0.py
 
