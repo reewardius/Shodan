@@ -1,3 +1,5 @@
+# Description
+
 This code go to the Shodan and display the hosts that are available on the IP address, the open ports and all the CVEs to the vulnerabilities that are on those ips. 
 
 Non-vulnerable hosts are named with their IP address and saved to a text document in the format <IP>.txt and vulnerable hosts in the format <IP>_vulnerable.txt to make it easier to track vulnerable and non-vulnerable hosts.
@@ -11,3 +13,9 @@ python ShodanCVE2.0.py
 # Shodan_CVE 3.0
 
 python ShodanCVE3.0.py --hosts/-i hosts.txt
+
+# Note
+
+In each of the files add a different API key.
+
+api = shodan.Shodan("API_KEY")
