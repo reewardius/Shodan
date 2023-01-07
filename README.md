@@ -16,6 +16,6 @@ python ShodanCVE3.0.py --hosts/-i hosts.txt
 
 # Note
 
-In each of the files add a different API key.
+Add your API key to each of the files.
 
 api = shodan.Shodan("API_KEY")
