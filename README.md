@@ -10,9 +10,9 @@ Create a file called hosts.txt and add IPs to it, each IP on a new line.
 
 python ShodanCVE2.0.py
 
-# Shodan_CVE 3.0
+# NotFullVulnerableIPs
 
-python ShodanCVE3.0.py --hosts/-i hosts.txt
+python NotFullVulnerableIPs.py --hosts/-i hosts.txt
 
 # Note
 
